@@ -16,20 +16,30 @@
   outline: none;
 }
 
+.container {
+  margin: 0 auto;
+  min-height: 200px;
+  height: 100%;
+  width: auto;
+  overflow-y: scroll;    
+}
+
 #add {
   height: 15%;
-  width: 5%;
+  width: 100%;
+  min-width: 50px;
   padding: 10px;
   color: white;
   margin-top: 15px;
   border: 1px solid lightgray;
-  border-radius: 10%;
+  border-radius: 10px;
   float: right;
   outline: none;
   background-color: #283747;
   position: relative;
   cursor: pointer;
   letter-spacing: .15em;
+  display: inline-block;
 }
 
 textarea {
