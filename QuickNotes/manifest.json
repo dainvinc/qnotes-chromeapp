@@ -1,0 +1,16 @@
+{
+    "author": "Vishal",
+    "name": "Quick Notes",
+    "description": "Make notes quickly",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    ],
+    "icons": {"128": "download.jpg"}
+}
